@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CLX.Extensions.Collections.ArrayExtension" Collapsed="true">
+    <Position X="8" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgABAAAAAAAAAAAAAAAQAAAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Extensions\Collections\ArrayExtension.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLX.Extensions.Collections.DictionaryExtension" Collapsed="true">
+    <Position X="8" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAACAAAAAAAIAAAAAAAAEAAA=</HashCode>
+      <FileName>Extensions\Collections\DictionaryExtension.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLX.Extensions.Collections.IListExtension" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAAAABAIAAAACAAAAAEAA=</HashCode>
+      <FileName>Extensions\Collections\IListExtension.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLX.Extensions.Collections.QueueExtension" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Extensions\Collections\QueueExtension.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLX.Extensions.Collections.StackExtension" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Extensions\Collections\StackExtension.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLX.Extensions.Generic.IEnumerableExtension" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Extensions\Generic\IEnumerableExtension.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLX.Extensions.Generic.NormalExtension" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAACIAAAAAAAAAAQA=</HashCode>
+      <FileName>Extensions\Generic\NormalExtension.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLX.Extensions.Helper.DisplayExtension" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQIAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>Extensions\Helper\DisplayExtension.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLX.Extensions.Helper.TimerHelper" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Extensions\Helper\TimerHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLX.Extensions.Raws.ObjectExtension" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Extensions\Raws\ObjectExtension.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLX.Extensions.Raws.StringExtension" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAAAAAoAAAAAAAgABAAAAAA=</HashCode>
+      <FileName>Extensions\Raws\StringExtension.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConsoleApp1.Program" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLX.ToolClass.Common.ListTool" Collapsed="true">
+    <Position X="8" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>ToolClass\Common\ListTool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLX.ToolClass.Common.RandomTool" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ToolClass\Common\RandomTool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

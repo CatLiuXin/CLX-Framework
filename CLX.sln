@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CLX Framework", "ConsoleApp1\CLX Framework.csproj", "{5FC30D56-D6B2-489C-B499-6A732899E3D8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{25C0F979-90A7-46F8-B22E-A4FE3C3ADBCD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. Sort and ForEach", "1. Sort and ForEach\1. Sort and ForEach.csproj", "{792C3427-1CC0-4A22-B5BF-716ACB3DD900}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Study", "Study", "{F7FFA7F6-8C9C-4253-9BD5-F04F5DE78533}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "out and in keyword", "out and in keyword\out and in keyword.csproj", "{13C55826-CEB2-4156-AB58-0E70DB1FDDB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. GenericCollections Extension", "1. GenericCollections Extension\2. GenericCollections Extension.csproj", "{6DEE3E07-EF9B-46B5-ADB8-FDEAB5C89BD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. List Init and Do", "3. List Init and Do\3. List Init and Do.csproj", "{3BC4545A-35D5-4E3C-8E1E-5954C2F07908}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5FC30D56-D6B2-489C-B499-6A732899E3D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FC30D56-D6B2-489C-B499-6A732899E3D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FC30D56-D6B2-489C-B499-6A732899E3D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FC30D56-D6B2-489C-B499-6A732899E3D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{792C3427-1CC0-4A22-B5BF-716ACB3DD900}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{792C3427-1CC0-4A22-B5BF-716ACB3DD900}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{792C3427-1CC0-4A22-B5BF-716ACB3DD900}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{792C3427-1CC0-4A22-B5BF-716ACB3DD900}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13C55826-CEB2-4156-AB58-0E70DB1FDDB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13C55826-CEB2-4156-AB58-0E70DB1FDDB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13C55826-CEB2-4156-AB58-0E70DB1FDDB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13C55826-CEB2-4156-AB58-0E70DB1FDDB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DEE3E07-EF9B-46B5-ADB8-FDEAB5C89BD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DEE3E07-EF9B-46B5-ADB8-FDEAB5C89BD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DEE3E07-EF9B-46B5-ADB8-FDEAB5C89BD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DEE3E07-EF9B-46B5-ADB8-FDEAB5C89BD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BC4545A-35D5-4E3C-8E1E-5954C2F07908}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BC4545A-35D5-4E3C-8E1E-5954C2F07908}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BC4545A-35D5-4E3C-8E1E-5954C2F07908}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BC4545A-35D5-4E3C-8E1E-5954C2F07908}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{792C3427-1CC0-4A22-B5BF-716ACB3DD900} = {25C0F979-90A7-46F8-B22E-A4FE3C3ADBCD}
+		{13C55826-CEB2-4156-AB58-0E70DB1FDDB7} = {F7FFA7F6-8C9C-4253-9BD5-F04F5DE78533}
+		{6DEE3E07-EF9B-46B5-ADB8-FDEAB5C89BD1} = {25C0F979-90A7-46F8-B22E-A4FE3C3ADBCD}
+		{3BC4545A-35D5-4E3C-8E1E-5954C2F07908} = {25C0F979-90A7-46F8-B22E-A4FE3C3ADBCD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4A24C6F2-F63C-4C28-9A42-9DD458618064}
+	EndGlobalSection
+EndGlobal
