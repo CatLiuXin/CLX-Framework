@@ -20,7 +20,7 @@ namespace CLX.Extensions.Collections
         /// <summary>
         /// 将列表的元素全部重置为val
         /// </summary>
-        public static IList<T> ResetListByValue<T>(this IList<T> list,T val)
+        public static IList<T> ResetByValue<T>(this IList<T> list,T val)
         {
             for(int i = 0; i < list.Count; i++)
             {
@@ -33,7 +33,7 @@ namespace CLX.Extensions.Collections
         /// 将列表中从beg到end-1的元素全部重置为val
         /// end默认为0，当end为0时表示从beg初始化到列表的末尾
         /// </summary>
-        public static IList<T> ResetListByValue<T>(this IList<T> list, T val,int beg,int end=0)
+        public static IList<T> ResetByValue<T>(this IList<T> list, T val,int beg,int end=0)
         {
             if (end == 0) end = list.Count;
             for (int i = beg; i < end; i++)
@@ -46,7 +46,7 @@ namespace CLX.Extensions.Collections
         /// <summary>
         /// 使用一个无参委托来重置列表
         /// </summary>
-        public static IList<T> ResetListBy<T>(this IList<T> list,Func<T> factroy)
+        public static IList<T> ResetBy<T>(this IList<T> list,Func<T> factroy)
         {
             if (factroy == null) throw new ArgumentNullException("factroy");
             for(int i = 0; i < list.Count; i++)
@@ -59,7 +59,7 @@ namespace CLX.Extensions.Collections
         /// <summary>
         /// 使用与数组下标相关的委托来重置列表
         /// </summary>
-        public static IList<T> ResetListBy<T>(this IList<T> list,Func<int,T> factroy)
+        public static IList<T> ResetBy<T>(this IList<T> list,Func<int,T> factroy)
         {
             if (factroy == null) throw new ArgumentNullException("factroy");
             for (int i = 0; i < list.Count; i++) list[i] = factroy(i);

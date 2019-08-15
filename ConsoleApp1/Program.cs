@@ -7,15 +7,18 @@ using CLX.Extensions.Generic;
 using CLX.Extensions.Helper;
 using CLX.Extensions.Collections;
 using CLX.ToolClass.Common;
+using System.Threading;
 
 namespace ConsoleApp1
 {
     class Program
     {
+
         public static void Main()
         {
-            int[] nums = new[] { 1, 2, 3, 5 };
-            nums.Shuffle().ForEach(v => v.Display());
+            var ints = new[] { 1, 2, 3, 4, 5, 6, 6, 6, 7, 8, 1, 5, 4, 3, 3, 2 };
+            ints.Sort().Display(" ");
+
             Console.ReadKey();
         }
         

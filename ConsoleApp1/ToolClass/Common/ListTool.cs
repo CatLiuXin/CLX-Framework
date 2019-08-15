@@ -15,7 +15,7 @@ namespace CLX.ToolClass.Common
         public static IList<int> GetList(int begNum, int count, int det = 1)
         {
             var list = new int[count];
-            return list.ResetListBy(id => id * det + begNum);
+            return list.ResetBy(id => id * det + begNum);
         }
 
         /// <summary>
@@ -24,7 +24,7 @@ namespace CLX.ToolClass.Common
         public static IList<T> GetList<T>(Func<T> factroy, int count)
         {
             var list = new T[count];
-            return list.ResetListBy(factroy);
+            return list.ResetBy(factroy);
         }
 
         /// <summary>
@@ -33,7 +33,7 @@ namespace CLX.ToolClass.Common
         public static IList<T> GetList<T>(Func<int, T> factroy, int count)
         {
             var list = new T[count];
-            return list.ResetListBy(factroy);
+            return list.ResetBy(factroy);
         }
 
         /// <summary>
