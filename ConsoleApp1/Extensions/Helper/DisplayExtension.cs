@@ -10,6 +10,7 @@ namespace CLX.Extensions.Helper
     public static class DisplayExtension
     {
         private static Action<string> logAction;
+        private static string defaultSeparator = " ";
 
         static DisplayExtension()
         {
@@ -24,13 +25,22 @@ namespace CLX.Extensions.Helper
             DisplayExtension.logAction = logAction;
         }
 
+        /// <summary>
+        /// 转变默认分隔字符串
+        /// </summary>
+        public static void ChangeDefaultSeparatorTo(string separator)
+        {
+            defaultSeparator = separator;
+        }
+
         public static void Display(this string str)
         {
             logAction(str);
         }
 
-        public static void Display<T>(this IEnumerable<T> list,string separator="\t")
+        public static void Display<T>(this IEnumerable<T> list,string separator=null)
         {
+            separator = separator ?? defaultSeparator;
             list.Select(item => item.ToString()).JoinWith(separator).Display();
         }
 

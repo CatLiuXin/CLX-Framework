@@ -13,14 +13,15 @@ namespace ConsoleApp1
 {
     class Program
     {
-
         public static void Main()
         {
-            var ints = new[] { 1, 2, 3, 4, 5, 6, 6, 6, 7, 8, 1, 5, 4, 3, 3, 2 };
-            ints.Sort().Display(" ");
+            var values = new[] { 1, 5, 6, 7, 9, 9, 5, 4 };
+            DisplayExtension.ChangeDefaultSeparatorTo("\t");
+            (from value in values
+             where value != 9
+             select value).Display(" ");
 
             Console.ReadKey();
         }
-        
     }
 }
