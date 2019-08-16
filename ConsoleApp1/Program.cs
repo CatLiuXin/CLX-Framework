@@ -16,13 +16,18 @@ namespace ConsoleApp1
         public static void Main()
         {
             /// Github上传测试
-            Action action = () =>
-            {
-                for (int i = 0; i < 1000; i++) i.Display();
-            };
-            action.TimeCost().Display();
+
+            GetValues(0, 100).Count().Display();
 
             Console.ReadKey();
+        }
+
+        public static IEnumerable<int> GetValues(int beg,int count)
+        {
+            for(int i = 0; ; i++)
+            {
+                yield return beg + i;
+            }
         }
     }
 }

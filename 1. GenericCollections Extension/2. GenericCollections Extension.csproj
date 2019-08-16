@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{6DEE3E07-EF9B-46B5-ADB8-FDEAB5C89BD1}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_1.GenericCollections_Extension</RootNamespace>
-    <AssemblyName>_1.GenericCollections_Extension</AssemblyName>
+    <RootNamespace>_2.GenericCollections_Extension</RootNamespace>
+    <AssemblyName>_2.GenericCollections_Extension</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
