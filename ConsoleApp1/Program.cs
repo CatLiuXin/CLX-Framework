@@ -15,6 +15,7 @@ namespace ConsoleApp1
     {
         public static void Main()
         {
+            /// Github上传测试
             Action action = () =>
             {
                 for (int i = 0; i < 1000; i++) i.Display();
