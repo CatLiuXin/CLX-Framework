@@ -15,11 +15,11 @@ namespace ConsoleApp1
     {
         public static void Main()
         {
-            var values = new[] { 1, 5, 6, 7, 9, 9, 5, 4 };
-            DisplayExtension.ChangeDefaultSeparatorTo("\t");
-            (from value in values
-             where value != 9
-             select value).Display(" ");
+            Action action = () =>
+            {
+                for (int i = 0; i < 1000; i++) i.Display();
+            };
+            action.TimeCost().Display();
 
             Console.ReadKey();
         }
