@@ -71,6 +71,7 @@
     <Compile Include="Extensions\Generic\NormalExtension.cs" />
     <Compile Include="Extensions\Collections\DictionaryExtension.cs" />
     <Compile Include="Extensions\Helper\DisplayExtension.cs" />
+    <Compile Include="Extensions\Raws\BoolExtension.cs" />
     <Compile Include="Extensions\Raws\ObjectExtension.cs" />
     <Compile Include="Extensions\Collections\StackExtension.cs" />
     <Compile Include="Extensions\Raws\StringExtension.cs" />
