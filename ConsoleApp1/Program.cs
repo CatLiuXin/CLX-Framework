@@ -5,7 +5,6 @@ namespace ConsoleApp1
 {
     class Program
     {
-
         public static void Main()
         {
             "Welcome To CLX!".Display();

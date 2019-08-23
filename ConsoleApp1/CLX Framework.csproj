@@ -65,6 +65,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Extensions\Collections\ArrayExtension.cs" />
+    <Compile Include="Extensions\Collections\ListExtension.cs" />
     <Compile Include="Extensions\Collections\QueueExtension.cs" />
     <Compile Include="Extensions\Generic\IEnumerableExtension.cs" />
     <Compile Include="Extensions\Collections\IListExtension.cs" />
@@ -75,6 +76,7 @@
     <Compile Include="Extensions\Raws\ObjectExtension.cs" />
     <Compile Include="Extensions\Collections\StackExtension.cs" />
     <Compile Include="Extensions\Raws\StringExtension.cs" />
+    <Compile Include="Extensions\Test\TestExtension.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ToolClass\Common\ListTool.cs" />

@@ -101,6 +101,11 @@ namespace CLX.Extensions.Collections
             return array.CloneWithType()
                         .ReverseArray(index, length);
         }
+
+        public static string CombineToString(this char[] array)
+        {
+            return new System.Text.StringBuilder().Append(array).ToString();
+        }
     }
     #endregion
     
