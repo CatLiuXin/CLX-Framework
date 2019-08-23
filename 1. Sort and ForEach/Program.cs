@@ -23,7 +23,7 @@ namespace _1.Sort_and_ForEach
             ints.ForEach(v => Console.WriteLine(v));
 
             Console.WriteLine("Next:");
-            ints.ResetListByValue(5);
+            ints.ResetByValue(5);
             ints.ForEach(v => Console.WriteLine(v));
             Console.ReadKey();
         }

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6DEE3E07-EF9B-46B5-ADB8-FDEAB5C89BD1}</ProjectGuid>
+    <ProjectGuid>{B3F7AED4-0D62-40B7-BE67-6F02A2889B5F}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_2.GenericCollections_Extension</RootNamespace>
-    <AssemblyName>_2.GenericCollections_Extension</AssemblyName>
+    <RootNamespace>_4.Bool_Extension</RootNamespace>
+    <AssemblyName>_4.Bool_Extension</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

@@ -12,14 +12,15 @@ namespace _1.GenericCollections_Extension
     {
         static void Main(string[] args)
         {
-            Stack<int> s = new Stack<int>() { 1, 2, 3 };
-            Queue<int> q = new Queue<int>() { 4, 5, 6 };
+            /// 通过调用Add方法初始化Stack 和 Queue
+            Stack<int> s = new Stack<int> { 1, 2, 3 };
+            Queue<int> q = new Queue<int> { 4, 5, 6 };
             Console.WriteLine(s.Last());
 
             Console.WriteLine("Foreach:");
             s.ForEach(v => { Console.WriteLine(v); });
 
-            Console.WriteLine("IsNull:");
+            Console.WriteLine("IsEmpty:");
             Console.WriteLine(s.IsEmpty());
             s.Clear();
             Console.WriteLine(s.IsEmpty());
