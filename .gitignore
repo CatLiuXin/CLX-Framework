@@ -134,6 +134,7 @@ DocProject/Help/*.hhk
 DocProject/Help/*.hhp
 DocProject/Help/Html2
 DocProject/Help/html
+ConsoleApp1/
 
 # Click-Once directory
 publish/
@@ -259,5 +260,3 @@ paket-files/
 # Python Tools for Visual Studio (PTVS)
 __pycache__/
 *.pyc
-
-ConsoleApp1/*.cs
