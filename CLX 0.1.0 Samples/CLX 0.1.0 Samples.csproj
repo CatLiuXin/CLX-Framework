@@ -46,6 +46,7 @@
     <Compile Include="Samples\1_CombineToString Example.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Samples\2 String Extension ToFloat Example.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

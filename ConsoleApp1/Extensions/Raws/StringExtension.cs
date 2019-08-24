@@ -31,6 +31,29 @@ namespace CLX.Extensions.Raws
         }
         #endregion
 
+        #region ToFloat Functions
+        public static float ToFloat(this string str)
+        {
+            return float.Parse(str);
+        }
+
+        public static float ToFloat(this string str, float defaultValue)
+        {
+            float v;
+            if (float.TryParse(str, out v))
+            {
+                return v;
+            }
+            return defaultValue;
+        }
+
+        public static bool TryToFloat(this string str, out float value)
+        {
+            return float.TryParse(str, out value);
+        }
+
+        #endregion
+
         public static string FormatWith(this string format, params object[] args)
         {
             return string.Format(format, args);
