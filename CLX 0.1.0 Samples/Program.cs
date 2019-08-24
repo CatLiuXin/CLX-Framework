@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CLX.Extensions.Helper;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,7 +13,7 @@ namespace CLX_0._1._0_Samples.Samples
         {
             _1_CombineToString_Example.Test();
             _2_String_Extension_ToFloat_Example.Test();
-
+            _3_Int_Extension_To_Sample.Test();
             Console.ReadKey();
         }
     }

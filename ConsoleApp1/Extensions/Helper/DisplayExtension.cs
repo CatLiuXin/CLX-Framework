@@ -44,6 +44,12 @@ namespace CLX.Extensions.Helper
             list.Select(item => item.ToString()).JoinWith(separator).Display();
         }
 
+        public static void Display(this IEnumerable<string>list,string separator = null)
+        {
+            separator = separator ?? defaultSeparator;
+            list.JoinWith(separator).Display();
+        }
+
         public static void Display(this object obj)
         {
             Display(obj.ToString());
