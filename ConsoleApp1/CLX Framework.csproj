@@ -64,6 +64,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Core\Interface\IObserable.cs" />
+    <Compile Include="Core\Interface\IObserver.cs" />
+    <Compile Include="Core\SubscribeSystem\Announcer.cs" />
+    <Compile Include="Core\SubscribeSystem\Disposable.cs" />
+    <Compile Include="Core\SubscribeSystem\Observer.cs" />
     <Compile Include="Extensions\Collections\ArrayExtension.cs" />
     <Compile Include="Extensions\Collections\ListExtension.cs" />
     <Compile Include="Extensions\Collections\QueueExtension.cs" />

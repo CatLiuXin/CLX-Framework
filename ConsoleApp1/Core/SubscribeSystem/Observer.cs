@@ -6,24 +6,58 @@ using System.Threading.Tasks;
 
 namespace CLX
 {
-    public class Observer<T> : IObserver<T>
+    
+
+    public static class Observer
     {
-        private Action onComplete;
-        private Action<Exception> onError;
-        private Action<T> onNext;
-        public void OnComplete()
+        #region Create Functions
+        public static IObserver<T> Create<T>(Action<T> onNext)
         {
-            onComplete();
+            return new CommonObserver<T>(onNext, e => { }, () => { });
         }
 
-        public void OnError(Exception ex)
+        public static IObserver<T> Create<T>(Action<T> onNext, Action<Exception> onError)
         {
-            onError(ex);
+            return new CommonObserver<T>(onNext, onError, () => { });
         }
 
-        public void OnNext(T value)
+        public static IObserver<T> Create<T>(Action<T> onNext,Action onComplete)
         {
-            onNext(value);
+            return new CommonObserver<T>(onNext, e => { }, onComplete);
+        }
+        public static IObserver<T> Create<T>(Action<T>onNext,Action<Exception>onError,Action onComplete)
+        {
+            return new CommonObserver<T>(onNext, onError, onComplete);
+        }
+        #endregion
+
+        class CommonObserver<T> : IObserver<T>
+        {
+            private Action onComplete;
+            private Action<Exception> onError;
+            private Action<T> onNext;
+            public void OnComplete()
+            {
+                onComplete();
+            }
+
+            public void OnError(Exception ex)
+            {
+                onError(ex);
+            }
+
+            public void OnNext(T value)
+            {
+                onNext(value);
+            }
+
+            public CommonObserver(Action<T> onNext, Action<Exception> onError, Action onComplete)
+            {
+                this.onNext = onNext;
+                this.onError = onError;
+                this.onComplete = onComplete;
+            }
+
         }
     }
 }

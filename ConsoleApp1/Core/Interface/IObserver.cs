@@ -1,15 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CLX
 {
-    public interface IObserver<in T>
+    public interface IObserver<T>
     {
         void OnComplete();
-        void OnError();
+        void OnError(Exception ex);
         void OnNext(T value);
     }
 }
