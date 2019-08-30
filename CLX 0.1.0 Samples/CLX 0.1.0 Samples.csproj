@@ -49,6 +49,7 @@
     <Compile Include="Samples\2 String Extension ToFloat Example.cs" />
     <Compile Include="Samples\3 Int Extension To Sample.cs" />
     <Compile Include="Samples\4 SubscribeSystem Sample.cs" />
+    <Compile Include="Samples\5 Dictionary Extension AddOrReplace Sample.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
