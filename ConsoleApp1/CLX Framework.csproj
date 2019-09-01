@@ -66,6 +66,8 @@
   <ItemGroup>
     <Compile Include="Core\Interface\IObserable.cs" />
     <Compile Include="Core\Interface\IObserver.cs" />
+    <Compile Include="Core\Interface\IPool.cs" />
+    <Compile Include="Core\ObjectPool.cs" />
     <Compile Include="Core\Singleton.cs" />
     <Compile Include="Core\SubscribeSystem\Announcer.cs" />
     <Compile Include="Core\SubscribeSystem\Disposable.cs" />

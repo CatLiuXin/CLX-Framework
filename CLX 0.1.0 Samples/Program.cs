@@ -17,6 +17,7 @@ namespace CLX_0._1._0_Samples.Samples
             _4_SubscribeSystem_Sample.Test();
             _5_Dictionary_Extension_AddOrReplace_Sample.Test();
             _6_Singleton_Example.Test();
+            _7_ObjectPool_Sample.Test();
             Console.ReadKey();
         }
     }

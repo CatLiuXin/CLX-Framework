@@ -1,11 +1,7 @@
 ﻿using CLX.Extensions.Collections;
 using CLX.Extensions.Helper;
 using CLX.Extensions.Test;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CLX_0._1._0_Samples
 {

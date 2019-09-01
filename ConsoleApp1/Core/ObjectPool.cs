@@ -15,6 +15,8 @@ namespace CLX
         Action<T> onReset;
         Action<T> onRecycle;
 
+        public int Count => queue.Count;
+
         /// <summary>
         /// 对象池构造函数
         /// </summary>
@@ -57,6 +59,11 @@ namespace CLX
         {
             onRecycle?.Invoke(value);
             queue.Enqueue(value);
+        }
+
+        public void Clear()
+        {
+            queue.Clear();
         }
     }
 }

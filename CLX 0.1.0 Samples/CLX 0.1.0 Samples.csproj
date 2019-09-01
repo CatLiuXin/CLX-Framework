@@ -51,6 +51,7 @@
     <Compile Include="Samples\4 SubscribeSystem Sample.cs" />
     <Compile Include="Samples\5 Dictionary Extension AddOrReplace Sample.cs" />
     <Compile Include="Samples\6 Singleton Example.cs" />
+    <Compile Include="Samples\7 ObjectPool Sample.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
