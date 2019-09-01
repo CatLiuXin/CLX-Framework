@@ -22,11 +22,8 @@ namespace CLX_0._1._0_Samples.Samples
                     Observer.Create<int>(v=>("v:"+v).Display(),()=>{ "v Complete".Display(); }),
                     Observer.Create<int>(v=>("v*v:"+v*v).Display(),()=>{ "v*v Complete".Display(); })
                 };
-                obs.ForEach(o =>
-                {
-                    announcer.Subscribe(o);
-                });
-                1.To(5).ForEach(v => announcer.Announce(v));
+                obs.ForEach(o=>announcer.Subscribe(o));
+                1.To(5).ForEach(announcer.Announce);
                 announcer.OnComplete();
             });
         }

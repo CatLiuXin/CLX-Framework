@@ -50,6 +50,7 @@
     <Compile Include="Samples\3 Int Extension To Sample.cs" />
     <Compile Include="Samples\4 SubscribeSystem Sample.cs" />
     <Compile Include="Samples\5 Dictionary Extension AddOrReplace Sample.cs" />
+    <Compile Include="Samples\6 Singleton Example.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
