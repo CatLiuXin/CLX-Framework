@@ -7,6 +7,7 @@ namespace CLX_0._1._2_Samples.Samples
         static void Main(string[] args)
         {
             _1_EventCollection_Example.Test();
+            _2_EventValue_Example.Test();
             Console.ReadKey();
         }
     }
