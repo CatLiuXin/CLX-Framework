@@ -38,18 +38,20 @@ namespace CLX.Extensions.Collections
         }
 
         /// <summary>
-        /// 将键和值添加或替换到字典中：如果不存在，则添加为默认值；存在，则根据func替换为新的值
+        /// 将键和值添加或替换到字典中.
+        /// 如果不存在，则添加为addValue值；
+        /// 存在，则根据repalceFunc替换为新的值
         /// </summary>
         public static Dictionary<TKey, TValue> AddOrReplace<TKey, TValue>(this Dictionary<TKey, TValue> dict,
-            TKey key, TValue defaultValue, System.Func<TValue,TValue> func)
+            TKey key, TValue addValue, System.Func<TValue,TValue> repalceFunc)
         {
             if (dict.ContainsKey(key))
             {
-                dict[key] = func(dict[key]);
+                dict[key] = repalceFunc(dict[key]);
             }
             else
             {
-                dict[key] = defaultValue;
+                dict[key] = addValue;
             }
             return dict;
         }

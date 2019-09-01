@@ -8,12 +8,15 @@ namespace CLX
     public class EventCollection<T>: ICollection<T>
     {
         ICollection<T> collection;
-        Action<T> onAdd;
-        Action<T> onRemove;
-        Action<T> onClear;
+        readonly Action<T> onAdd;
+        readonly Action<T> onRemove;
+        readonly Action<T> onClear;
         public EventCollection(ICollection<T> collection,Action<T>onAdd=null,Action<T>onRemove=null,Action<T>onClear=null)
         {
             this.collection = collection;
+            this.onAdd = onAdd;
+            this.onClear = onClear;
+            this.onRemove = onRemove;
         }
 
         public int Count => collection.Count;

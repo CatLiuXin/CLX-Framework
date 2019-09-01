@@ -64,6 +64,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Core\EventCollection.cs" />
     <Compile Include="Core\Interface\IObserable.cs" />
     <Compile Include="Core\Interface\IObserver.cs" />
     <Compile Include="Core\Interface\IPool.cs" />
