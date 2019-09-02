@@ -42,6 +42,10 @@ var counter = new Dictionary<T,int>();
 IEnumerable<T> msg;
 msg.ForEach(v=>counter.AddOrReplace(v,1,num=>num+1));
 
+/// 显示测试函数调用时间
+Action action = ()=>{1.To(10000).ForEach(v=>v.Display());};
+action.TimeCost().Display();
+
 /// 消息通知机制
 Announcer<int> announcer = new Announcer<int>();
 CLX.IObserver<int>[] obs = new[] {
