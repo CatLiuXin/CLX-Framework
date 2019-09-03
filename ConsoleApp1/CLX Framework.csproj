@@ -64,12 +64,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Core\EventCollection.cs" />
+    <Compile Include="Core\AbstractClass\Heap.cs" />
+    <Compile Include="Core\Collections\EventCollection.cs" />
+    <Compile Include="Core\Collections\MaxHeap.cs" />
+    <Compile Include="Core\Collections\MinHeap.cs" />
     <Compile Include="Core\EventValue.cs" />
     <Compile Include="Core\Interface\IObserable.cs" />
     <Compile Include="Core\Interface\IObserver.cs" />
     <Compile Include="Core\Interface\IPool.cs" />
-    <Compile Include="Core\ObjectPool.cs" />
+    <Compile Include="Core\Collections\ObjectPool.cs" />
     <Compile Include="Core\Singleton.cs" />
     <Compile Include="Core\SubscribeSystem\Announcer.cs" />
     <Compile Include="Core\SubscribeSystem\Disposable.cs" />
