@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CLX.Extensions.Generic;
+using System;
 using System.Collections.Generic;
 
 namespace CLX.Extensions.Raws
@@ -17,6 +18,15 @@ namespace CLX.Extensions.Raws
                 yield return begin;
                 begin += step;
             }
+        }
+
+        /// <summary>
+        /// 运行times次action
+        /// </summary>
+        public static void LoopsFor(this int times,Action action)
+        {
+            if (action == null) throw new ArgumentNullException("action");
+            1.To(times).ForEach(_ => action());
         }
     }
 }
