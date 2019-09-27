@@ -21,7 +21,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. Bool Extension", "4. Boo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CLX 0.1.0 Samples", "CLX 0.1.0 Samples\CLX 0.1.0 Samples.csproj", "{688DB5CD-609F-4122-93EA-A0319B14B910}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CLX 0.1.2 Samples", "CLX 0.1.2 Samples\CLX 0.1.2 Samples.csproj", "{A12A4825-BD56-49FD-A647-B9B05FEA1559}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CLX 0.1.2 Samples", "CLX 0.1.2 Samples\CLX 0.1.2 Samples.csproj", "{A12A4825-BD56-49FD-A647-B9B05FEA1559}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CLX FrameworkTests", "CLX FrameworkTests\CLX FrameworkTests.csproj", "{A7361390-58F8-4E04-80EE-3591FDAFF58E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,6 +63,10 @@ Global
 		{A12A4825-BD56-49FD-A647-B9B05FEA1559}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A12A4825-BD56-49FD-A647-B9B05FEA1559}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A12A4825-BD56-49FD-A647-B9B05FEA1559}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7361390-58F8-4E04-80EE-3591FDAFF58E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7361390-58F8-4E04-80EE-3591FDAFF58E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7361390-58F8-4E04-80EE-3591FDAFF58E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7361390-58F8-4E04-80EE-3591FDAFF58E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
